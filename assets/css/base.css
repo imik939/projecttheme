@@ -1,0 +1,24 @@
+/*
+ * Base
+ */
+*,
+*:hover,
+*:focus {
+  outline: 0;
+}
+
+.transition {
+  transition: var(--theme-transition);
+}
+
+#content {
+  min-height: 100vh;
+}
+
+body {
+  background-color:black;
+  font-family: var(--theme-font-body);
+  font-size: var(--theme-font-size-base);
+  line-height: var(--theme-line-height-base); 
+  
+}

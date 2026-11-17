@@ -1,0 +1,21 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: black;
+  --theme-color-secondary: #414141;
+  --theme-color-tertiary:#787878;
+  --theme-color-accent:#717070;
+
+  --theme-transition: all 0.3s ease-in-out;
+
+  --theme-font-body: "JetBrains Mono", sans-serif;
+  --theme-font-heading: "JetBrains Mono", sans-serif;
+
+  --theme-font-size-base: 1rem;
+  --theme-font-size-lg: 1.25rem;
+  --theme-font-size-xl: 1.5rem;
+
+}
