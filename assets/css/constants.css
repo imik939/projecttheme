@@ -4,10 +4,13 @@
  * Keep colors and reusable theme values here.
  */
 :root {
-  --theme-color-primary: black;
-  --theme-color-secondary: #414141;
-  --theme-color-tertiary:#787878;
-  --theme-color-accent:#717070;
+  --theme-color-primary: #000000;
+  --theme-color-secondary: #f0eee8;
+  --theme-color-tertiary: #6f6d67;
+  --theme-color-accent: #d7ff3f;
+  --theme-color-text-default: #f0eee8;
+  --theme-color-page: #000000;
+  --theme-color-paper: #f0eee8;
 
   --theme-transition: all 0.3s ease-in-out;
 
@@ -15,6 +18,7 @@
   --theme-font-heading: "JetBrains Mono", sans-serif;
 
   --theme-font-size-base: 1rem;
+  --theme-line-height-base: 1.5;
   --theme-font-size-lg: 1.25rem;
   --theme-font-size-xl: 1.5rem;
 

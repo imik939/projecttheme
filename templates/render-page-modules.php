@@ -20,6 +20,10 @@ while (have_rows('page_modules')) : the_row();
     'show_on'    => get_sub_field('show-on') ?: 'everywhere',
   ];
 
+  if ('hero' === get_row_layout()) {
+    $opts['container'] = 'none';
+  }
+
   // Öffne Section-Hülle nur, wenn Helper existieren – sonst simple Wrapper
   if (function_exists('section_open')) {
     section_open($opts);
@@ -33,6 +37,63 @@ while (have_rows('page_modules')) : the_row();
   }
 
   switch (get_row_layout()) {
+    case 'hero':
+      get_template_part('template-parts/flex/layout', 'hero'); break;
+
+    case 'story_box':
+      get_template_part('template-parts/flex/layout', 'story-box'); break;
+
+    case 'navigation_button':
+      get_template_part('template-parts/flex/layout', 'navigation-button'); break;
+
+    case 'album_button':
+      get_template_part('template-parts/flex/layout', 'album-button'); break;
+
+    case 'divider':
+      get_template_part('template-parts/flex/layout', 'divider'); break;
+
+    case 'header':
+      get_template_part('template-parts/flex/layout', 'header'); break;
+
+    case 'header_artist':
+      get_template_part('template-parts/flex/layout', 'header-artist'); break;
+
+    case 'header_album':
+      get_template_part('template-parts/flex/layout', 'header-album'); break;
+
+    case 'album_image':
+      get_template_part('template-parts/flex/layout', 'album-image'); break;
+
+    case 'tracks':
+      get_template_part('template-parts/flex/layout', 'tracks'); break;
+
+    case 'fav_tracks':
+      get_template_part('template-parts/flex/layout', 'fav-tracks'); break;
+
+    case 'spotify':
+      get_template_part('template-parts/flex/layout', 'spotify'); break;
+
+    case 'song_introduction':
+      get_template_part('template-parts/flex/layout', 'song-introduction'); break;
+
+    case 'lyrics_content':
+      get_template_part('template-parts/flex/layout', 'lyrics-content'); break;
+
+    case 'album_details':
+      get_template_part('template-parts/flex/layout', 'album-details'); break;
+
+    case 'box':
+      get_template_part('template-parts/flex/layout', 'box'); break;
+
+    case 'next':
+      get_template_part('template-parts/flex/layout', 'next'); break;
+
+    case 'navigation':
+      get_template_part('template-parts/flex/layout', 'navigation'); break;
+
+    case 'button_divider':
+      get_template_part('template-parts/flex/layout', 'button-divider'); break;
+
     case 'intro':
       get_template_part('template-parts/flex/layout', 'intro'); break;
 

@@ -53,6 +53,15 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_tracks_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "03 TRACKS & LYRICS",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
                             "key": "field_intro_kicker",
                             "label": "Kicker",
                             "name": "kicker",
@@ -1467,6 +1476,1221 @@
                     "acfe_flexible_settings": false,
                     "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
+                },
+                "layout_hero_20261117": {
+                    "key": "layout_hero_20261117",
+                    "name": "hero",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_hero_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Optional short label above the headline.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_hero_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "The main hero headline.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_hero_text_20261117",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "Optional supporting copy.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "allow_in_bindings": 0,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_hero_image_20261117",
+                            "label": "Image",
+                            "name": "image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Optional image displayed alongside the hero content.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_hero_cta_20261117",
+                            "label": "CTA",
+                            "name": "cta",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "Optional call-to-action link.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_hero_meta_20261117",
+                            "label": "Meta label",
+                            "name": "meta_label",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Optional small label for the bottom or side of the hero.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Basis"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_story_box_20261117": {
+                    "key": "layout_story_box_20261117",
+                    "name": "story_box",
+                    "label": "Story Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_story_box_image_20261117",
+                            "label": "Image",
+                            "name": "image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Image for the story box.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_story_box_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Short label above the story title.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_story_box_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Story headline.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_story_box_text_20261117",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "Optional story copy.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "allow_in_bindings": 0,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_story_box_link_20261117",
+                            "label": "Link",
+                            "name": "link",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "Optional link for the story box.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Basis"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_navigation_button_20261117": {
+                    "key": "layout_navigation_button_20261117",
+                    "name": "navigation_button",
+                    "label": "Navigation Button",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_navigation_button_link_20261117",
+                            "label": "Link",
+                            "name": "link",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "Destination and visible label for the button.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_navigation_button_style_20261117",
+                            "label": "Style",
+                            "name": "style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Choose the button treatment.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "solid": "Solid",
+                                "outline": "Outline"
+                            },
+                            "default_value": "solid",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        },
+                        {
+                            "key": "field_navigation_button_alignment_20261117",
+                            "label": "Alignment",
+                            "name": "alignment",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Align the button within the module.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "start": "Left",
+                                "center": "Center",
+                                "end": "Right"
+                            },
+                            "default_value": "start",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_album_button_20261117": {
+                    "key": "layout_album_button_20261117",
+                    "name": "album_button",
+                    "label": "Album Button",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_album_button_label_20261117",
+                            "label": "Label",
+                            "name": "label",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Text displayed on the album button.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "The Album",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_album_button_link_20261117",
+                            "label": "Link",
+                            "name": "link",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "Destination for the album button.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_divider_20261117": {
+                    "key": "layout_divider_20261117",
+                    "name": "divider",
+                    "label": "Divider",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Basis"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_header_20261117": {
+                    "key": "layout_header_20261117",
+                    "name": "header",
+                    "label": "Header",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_header_branding_20261117",
+                            "label": "Branding",
+                            "name": "branding",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Text shown on the left side of the header.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "ON REPEAT.",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_header_navigation_20261117",
+                            "label": "Navigation",
+                            "name": "navigation",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "Navigation links shown on the right side of the header.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "pagination": 0,
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add navigation link",
+                            "sub_fields": [
+                                {
+                                    "key": "field_header_navigation_link_20261117",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "100",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_header_artist_20261117": {
+                    "key": "layout_header_artist_20261117",
+                    "name": "header_artist",
+                    "label": "Header Artist",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_header_artist_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "01 THE ARTIST",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_artist_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "BEHIND THE ARTIST",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_artist_image_20261117",
+                            "label": "Artist image",
+                            "name": "image",
+                            "type": "image",
+                            "required": 1,
+                            "return_format": "id",
+                            "library": "all",
+                            "preview_size": "medium",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_header_album_20261117": {
+                    "key": "layout_header_album_20261117",
+                    "name": "header_album",
+                    "label": "Header Album",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_header_album_navigation_20261117",
+                            "label": "Navigation",
+                            "name": "navigation",
+                            "type": "repeater",
+                            "required": 0,
+                            "layout": "table",
+                            "button_label": "Add navigation item",
+                            "sub_fields": [
+                                {
+                                    "key": "field_header_album_navigation_link_20261117",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "link",
+                                    "required": 1,
+                                    "return_format": "array"
+                                }
+                            ],
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_album_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "02 THE ALBUM",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_album_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "INSIDE THE ALBUM",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_album_image_20261117",
+                            "label": "Album image",
+                            "name": "image",
+                            "type": "image",
+                            "required": 1,
+                            "return_format": "id",
+                            "library": "all",
+                            "preview_size": "medium",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_header_album_text_20261117",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "wysiwyg",
+                            "required": 1,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_album_details_20261117": {
+                    "key": "layout_album_details_20261117",
+                    "name": "album_details",
+                    "label": "Album Details",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_album_details_details_20261117",
+                            "label": "Album details",
+                            "name": "details",
+                            "type": "wysiwyg",
+                            "required": 0,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_album_details_quote_20261117",
+                            "label": "Quote",
+                            "name": "quote",
+                            "type": "text",
+                            "required": 0,
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_album_details_spotify_link_20261117",
+                            "label": "Spotify link",
+                            "name": "spotify_link",
+                            "type": "link",
+                            "required": 0,
+                            "return_format": "array",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_album_details_feature_image_20261117",
+                            "label": "Feature image",
+                            "name": "feature_image",
+                            "type": "image",
+                            "required": 0,
+                            "return_format": "id",
+                            "library": "all",
+                            "preview_size": "medium",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_album_image_20261117": {
+                    "key": "layout_album_image_20261117",
+                    "name": "album_image",
+                    "label": "Album Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_album_image_image_20261117",
+                            "label": "Album image",
+                            "name": "image",
+                            "type": "image",
+                            "required": 1,
+                            "return_format": "id",
+                            "library": "all",
+                            "preview_size": "medium",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_tracks_20261117": {
+                    "key": "layout_tracks_20261117",
+                    "name": "tracks",
+                    "label": "Tracks",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_tracks_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "03 TRACKS & LYRICS",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_tracks_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "TRACKLIST",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_tracks_items_20261117",
+                            "label": "Tracks",
+                            "name": "tracks",
+                            "type": "repeater",
+                            "required": 1,
+                            "layout": "table",
+                            "min": 1,
+                            "button_label": "Add track",
+                            "sub_fields": [
+                                {
+                                    "key": "field_track_number_20261117",
+                                    "label": "Number",
+                                    "name": "number",
+                                    "type": "text",
+                                    "required": 1,
+                                    "wrapper": { "width": "15", "class": "", "id": "" }
+                                },
+                                {
+                                    "key": "field_track_name_20261117",
+                                    "label": "Name",
+                                    "name": "name",
+                                    "type": "text",
+                                    "required": 1,
+                                    "wrapper": { "width": "35", "class": "", "id": "" }
+                                },
+                                {
+                                    "key": "field_track_artist_20261117",
+                                    "label": "Artist",
+                                    "name": "artist",
+                                    "type": "text",
+                                    "required": 0,
+                                    "wrapper": { "width": "30", "class": "", "id": "" }
+                                },
+                                {
+                                    "key": "field_track_lyrics_link_20261117",
+                                    "label": "Lyrics link",
+                                    "name": "lyrics_link",
+                                    "type": "link",
+                                    "required": 0,
+                                    "return_format": "array",
+                                    "wrapper": { "width": "20", "class": "", "id": "" }
+                                }
+                            ],
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_fav_tracks_20261117": {
+                    "key": "layout_fav_tracks_20261117",
+                    "name": "fav_tracks",
+                    "label": "Fav Tracks",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_fav_tracks_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "04 FAV TRACKS",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_fav_tracks_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "FAV TRACKS",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_fav_tracks_items_20261117",
+                            "label": "Favorite tracks",
+                            "name": "tracks",
+                            "type": "repeater",
+                            "required": 1,
+                            "layout": "table",
+                            "min": 1,
+                            "button_label": "Add favorite track",
+                            "sub_fields": [
+                                {
+                                    "key": "field_fav_track_number_20261117",
+                                    "label": "Number",
+                                    "name": "number",
+                                    "type": "text",
+                                    "required": 1,
+                                    "wrapper": { "width": "15", "class": "", "id": "" }
+                                },
+                                {
+                                    "key": "field_fav_track_name_20261117",
+                                    "label": "Name",
+                                    "name": "name",
+                                    "type": "text",
+                                    "required": 1,
+                                    "wrapper": { "width": "35", "class": "", "id": "" }
+                                },
+                                {
+                                    "key": "field_fav_track_lyrics_link_20261117",
+                                    "label": "Lyrics link",
+                                    "name": "lyrics_link",
+                                    "type": "link",
+                                    "required": 0,
+                                    "return_format": "array",
+                                    "wrapper": { "width": "50", "class": "", "id": "" }
+                                }
+                            ],
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_spotify_20261117": {
+                    "key": "layout_spotify_20261117",
+                    "name": "spotify",
+                    "label": "Spotify",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_spotify_label_20261117",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "LISTEN ON SPOTIFY",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_spotify_link_20261117",
+                            "label": "Spotify link",
+                            "name": "link",
+                            "type": "link",
+                            "required": 1,
+                            "return_format": "array",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_song_introduction_20261117": {
+                    "key": "layout_song_introduction_20261117",
+                    "name": "song_introduction",
+                    "label": "Song Introduction",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_song_introduction_eyebrow_20261117",
+                            "label": "Eyebrow",
+                            "name": "eyebrow",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "THE SONG",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_song_introduction_title_20261117",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "SONG INTRODUCTION",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_song_introduction_text_20261117",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "wysiwyg",
+                            "required": 1,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_lyrics_content_20261117": {
+                    "key": "layout_lyrics_content_20261117",
+                    "name": "lyrics_content",
+                    "label": "Lyrics Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_lyrics_content_lyrics_20261117",
+                            "label": "Lyrics",
+                            "name": "lyrics",
+                            "type": "wysiwyg",
+                            "required": 1,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_box_20261117": {
+                    "key": "layout_box_20261117",
+                    "name": "box",
+                    "label": "Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_box_label_20261117",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_box_text_20261117",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "wysiwyg",
+                            "required": 1,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_next_20261117": {
+                    "key": "layout_next_20261117",
+                    "name": "next",
+                    "label": "Next",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_next_link_20261117",
+                            "label": "Next link",
+                            "name": "link",
+                            "type": "link",
+                            "required": 1,
+                            "return_format": "array",
+                            "wrapper": { "width": "100", "class": "", "id": "" }
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_navigation_20261117": {
+                    "key": "layout_navigation_20261117",
+                    "name": "navigation",
+                    "label": "Navigation",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_navigation_items_20261117",
+                            "label": "Navigation items",
+                            "name": "items",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "Add the links displayed in the navigation.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "pagination": 0,
+                            "min": 1,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add navigation item",
+                            "sub_fields": [
+                                {
+                                    "key": "field_navigation_item_link_20261117",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "Destination and label for the navigation item.",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "100",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_button_divider_20261117": {
+                    "key": "layout_button_divider_20261117",
+                    "name": "button_divider",
+                    "label": "Button Divider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_button_divider_label_20261117",
+                            "label": "Label",
+                            "name": "label",
+                            "type": "text",
+                            "required": 0,
+                            "default_value": "Behind the music.",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_button_divider_artist_image_20261117",
+                            "label": "Artist image",
+                            "name": "artist_image",
+                            "type": "image",
+                            "required": 0,
+                            "return_format": "id",
+                            "library": "all",
+                            "preview_size": "thumbnail",
+                            "wrapper": { "width": "50", "class": "", "id": "" }
+                        },
+                        {
+                            "key": "field_button_divider_buttons_20261117",
+                            "label": "Buttons",
+                            "name": "buttons",
+                            "type": "repeater",
+                            "required": 1,
+                            "layout": "table",
+                            "min": 3,
+                            "max": 3,
+                            "button_label": "Add button",
+                            "sub_fields": [
+                                {
+                                    "key": "field_button_divider_button_link_20261117",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "link",
+                                    "required": 1,
+                                    "return_format": "array",
+                                    "wrapper": { "width": "100", "class": "", "id": "" }
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Navigation"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
                 }
             },
             "min": "",
@@ -1508,5 +2732,5 @@
             "json"
         ]
     },
-    "modified": 1794392283
+    "modified": 1794930675
 }

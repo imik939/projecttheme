@@ -71,12 +71,6 @@ function projecttheme_image_size_names( $sizes ) {
 }
 add_filter( 'image_size_names_choose', 'projecttheme_image_size_names' );
 
-// Giving credits
-function remove_footer_admin () {
-    echo 'Theme Autorin: <a href="https://www.tanja-kobler.com" target="_blank">Tanja Kobler</a>';
-}
-add_filter('admin_footer_text', 'remove_footer_admin');
-
 // Move Yoast to bottom
 function yoasttobottom() {
     return 'low';

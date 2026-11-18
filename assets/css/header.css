@@ -2,23 +2,24 @@
  * Header
  */
 header {
-  background-color: white;
+  background-color: var(--theme-color-page);
+  color: var(--theme-color-paper);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 1000;
   top: 0;
   left: 0;
-  padding: 1rem;
+  padding: 1.25rem 1.5rem;
+  box-sizing: border-box;
 }
 
 
 @media (min-width: 767px) {
   header {
-    position: relative;
-  padding: 2rem 3rem;
+    padding: 2rem 4rem;
   }
 }
 
@@ -34,6 +35,6 @@ header {
 
 @media (min-width: 767px) {
   .site-logo {
-    width: min(100%, 283px);
+    width: min(100%, 220px);
   }
 }

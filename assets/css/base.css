@@ -15,10 +15,30 @@
   min-height: 100vh;
 }
 
+html,
+body,
+#page,
+#content {
+  background-color: var(--theme-color-page);
+}
+
 body {
-  background-color:black;
+  background-color: var(--theme-color-page);
   font-family: var(--theme-font-body);
   font-size: var(--theme-font-size-base);
   line-height: var(--theme-line-height-base); 
-  
+  margin: 0;
+}
+
+img {
+  border-radius: 8px !important;
+}
+
+::selection {
+  background: var(--theme-color-accent);
+  color: var(--theme-color-primary);
+}
+
+.container-lg {
+  max-width: 1440px;
 }
