@@ -10,7 +10,6 @@ function projecttheme_enqueue_assets() {
 	$bootstrap_css = $theme_path . '/assets/css/bootstrap.min.css';
 	$bootstrap_js  = $theme_path . '/assets/js/bootstrap.bundle.min.js';
 	$theme_css     = $theme_path . '/assets/css/theme.css';
-	$theme_js      = $theme_path . '/assets/js/main.js';
 	$theme_styles  = glob( $theme_path . '/assets/css/*.css' );
 	$theme_version = $theme_css && file_exists( $theme_css ) ? filemtime( $theme_css ) : null;
 
@@ -39,35 +38,8 @@ function projecttheme_enqueue_assets() {
 		file_exists( $bootstrap_js ) ? filemtime( $bootstrap_js ) : null,
 		true
 	);
-
-	wp_register_script(
-		'projecttheme-main',
-		$theme_uri . '/assets/js/main.js',
-		array( 'projecttheme-bootstrap-script' ),
-		file_exists( $theme_js ) ? filemtime( $theme_js ) : null,
-		true
-	);
-
-	wp_localize_script(
-		'projecttheme-main',
-		'siteVars',
-		array(
-			// 'ajaxUrl' => admin_url( 'admin-ajax.php' ),
-		)
-	);
-
-	wp_enqueue_script( 'projecttheme-main' );
 }
 add_action( 'wp_enqueue_scripts', 'projecttheme_enqueue_assets', 10 );
-
-function projecttheme_main_script_as_module( $tag, $handle, $src ) {
-	if ( 'projecttheme-main' !== $handle ) {
-		return $tag;
-	}
-
-	return '<script type="module" src="' . esc_url( $src ) . '"></script>';
-}
-add_filter( 'script_loader_tag', 'projecttheme_main_script_as_module', 10, 3 );
 
 function cleaning_wordpress() {
 	// removing all WP css files enqueued by default

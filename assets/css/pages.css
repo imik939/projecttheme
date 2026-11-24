@@ -14,24 +14,25 @@
 }
 
 .header_album {
-	margin-top: -2rem;
-	padding-top: 0 !important;
+	margin-top: 0;
+	padding-top: 2rem !important;
 }
 
 .tracks {
-	margin-top: -4rem;
+	margin-top: 0;
 }
 
 .fav_tracks {
-	margin-top: -4rem;
+	margin-top: 0;
 }
 
 .spotify {
-	margin-top: -4rem;
+	margin-top: 0;
 }
 
 .song_introduction {
-	margin-top: -8rem;
+	margin-top: 0;
+	padding-top: 2rem !important;
 }
 
 .lyrics_content {
@@ -42,12 +43,8 @@
 	flex-shrink: 0;
 	gap: 16px;
 	height: auto;
-	margin-top: -4rem;
+	margin-top: 0;
 	padding: 24px;
-}
-
-.lyrics_content .module-lyrics-content__text {
-	height: 4953px;
 }
 
 .page-artist .section {

@@ -9,12 +9,10 @@ Speichern und Neuladen direkt verwendet.
 
 - `assets/css/theme.css` ist der zentrale Einstiegspunkt für die eigenen Styles.
 - Die bearbeitbaren CSS-Bereiche liegen getrennt in `assets/css/`: `constants.css`,
-  `base.css`, `typography.css`, `header.css`, `menu.css`, `footer.css`,
-  `forms.css`, `components.css` und `pages.css`.
+  `base.css`, `typography.css`, `header.css`, `components.css` und `pages.css`.
 - `assets/css/bootstrap.min.css` ist die lokale, an die ursprünglichen
   Theme-Variablen angepasste Bootstrap-5-Datei.
-- `assets/js/main.js` ist der zentrale JavaScript-Einstiegspunkt und importiert
-  weitere eigene Module wie `menu.js`.
+- Bootstrap-JavaScript wird für Akkordeons, Tabs und Bild-Slider verwendet.
 - `configure/js-css.php` bindet die Dateien in der richtigen Reihenfolge ein und
   verwendet die Änderungszeit als Version.
 - PHP-Templates, `templates/`, `acf-json/` und die Dateien in `configure/` bleiben
@@ -31,13 +29,10 @@ assets/
 │   ├── base.css
 │   ├── typography.css
 │   ├── header.css
-│   ├── menu.css
-│   ├── footer.css
-│   ├── forms.css
 │   ├── components.css
 │   └── pages.css
 ├── js/
-│   └── main.js
+│   └── bootstrap.bundle.min.js
 └── img/
 ```
 
